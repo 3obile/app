@@ -9,8 +9,9 @@
     "userInterfaceStyle": "automatic",
     "extra": {
       "supportsRTL": true,
+      "router": {},
       "eas": {
-        "projectId": "sawalef-v3"
+        "projectId": "e3173411-355a-43ac-8745-176001ca2f4a"
       }
     },
     "splash": {
@@ -35,7 +36,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "@react-native-async-storage/async-storage"
     ],
     "experiments": {
       "typedRoutes": true
